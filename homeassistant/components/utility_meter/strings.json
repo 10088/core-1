@@ -4,6 +4,7 @@
       "user": {
         "title": "New Utility Meter",
         "description": "Supported tariffs is a comma separated list of supported tariffs, leave empty if only a single tariff is needed.\nMeter reset offset allows offsetting of your cycle period start moment.\nIn case you cannot describe your cycle and/or offset using this UI use a YAML configuration file (https://www.home-assistant.io/integrations/utility_meter/#configuration) ",
+        "description": "*Supported tariffs* is a comma separated list of supported tariffs, leave empty if only a single tariff is needed.\n*Meter reset offset* allows offsetting the *meter reset cycle*'s starting moment. For example, a monthly cycle with a *meter reset offset* of 1 day will reset at midnight the 2nd of every month instead of at midnight the 1st of every month.\nIn case the cycle is too complex to describe with a combination of *meter reset cycle* and *meter reset offset*, it may be possible to describe with a CRON pattern in `configuration.yaml` file (https://www.home-assistant.io/integrations/utility_meter/#configuration)",
         "data": {
           "cycle": "Meter reset cycle",
           "name": "Name",
