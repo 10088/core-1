@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "New Utility Meter",
-        "description": "Meter reset offset allows offsetting the time of meter reset.\nSupported tariffs is a comma separated list of supported tariffs, leave empty if only a single tariff is needed.",
+        "description": "Supported tariffs is a comma separated list of supported tariffs, leave empty if only a single tariff is needed.\nMeter reset offset allows offsetting of your cycle period start moment.\nIn case you cannot describe your cycle and/or offset using this UI use a YAML configuration file (https://www.home-assistant.io/integrations/utility_meter/#configuration) ",
         "data": {
           "cycle": "Meter reset cycle",
           "name": "Name",
